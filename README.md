@@ -23,7 +23,7 @@ This project provides a simple REST API to extract the outline (headings) from a
 
 ## Build and Run Instructions
 
-### 1. Install Dependencies
+### 1. Install Dependencies (One-Time, Online)
 Make sure you have Python 3.6+ installed. Install all required packages using:
 
 ```
@@ -54,14 +54,75 @@ This will send the PDF to the API and save the response to `output.json` in the 
 
 ---
 
-## Notes
-- Ensure the API server is running before executing the test script.
-- The solution is intended for local/development use only (do not use Flask's built-in server in production).
-- If you encounter missing module errors, install them using `pip install <module>`.
+## Docker Usage (No Python/Library Install Needed)
+
+1. **Build the Docker image:**
+   ```sh
+   docker build -t pdf-outline-api .
+   ```
+2. **Run the Docker container:**
+   ```sh
+   docker run -p 5000:5000 pdf-outline-api
+   ```
+3. **Upload a PDF from your host:**
+   - Use the provided `test_api.py` script (recommended), or
+   - Use `curl`:
+     ```sh
+     curl -F "file=@C:/path/to/your/file.pdf" http://localhost:5000/extract-outline
+     ```
 
 ---
 
-## Example
+## Offline Usage
+- After installing dependencies or building the Docker image once (while online), you can run the API and process PDFs **completely offline**.
+- No internet connection is required for running the API or uploading files.
+
+---
+
+## Step-by-Step: Host User Guide
+
+1. **Install Docker Desktop** (if not already installed)
+2. **Build the Docker image:**
+   ```sh
+   docker build -t pdf-outline-api .
+   ```
+3. **Run the Docker container:**
+   ```sh
+   docker run -p 5000:5000 pdf-outline-api
+   ```
+4. **Upload a PDF:**
+   - Edit `test_api.py` to set your PDF path.
+   - Run `python test_api.py` from your host.
+   - Or use `curl` as shown above.
+5. **View the output:**
+   - Output will be printed in the terminal and saved to `output.json`.
+
+---
+
+## How to Push This Code to GitHub
+
+1. Create a new repository on GitHub (do not initialize with README).
+2. In your project directory, run:
+   ```sh
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/YOUR-USERNAME/REPO-NAME.git
+   git branch -M main
+   git push -u origin main
+   ```
+   Replace `YOUR-USERNAME` and `REPO-NAME` with your GitHub username and repository name.
+
+---
+
+## What Not to Do
+- **Do not hardcode headings or file-specific logic:** The code must work for any PDF, not just a specific file.
+- **Do not make API or web calls:** All processing is local; no external web requests are made.
+- **Do not exceed runtime/model size constraints:** The code is efficient and uses only lightweight libraries.
+
+---
+
+## Example Output
 Example output in `output.json`:
 ```json
 {
