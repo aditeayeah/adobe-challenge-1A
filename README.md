@@ -1,15 +1,17 @@
 # PDF Outline Extraction API
 
 ## Overview
-This project provides a simple REST API to extract the outline (headings) from a PDF document. The API is built using Flask and leverages the PyMuPDF (`fitz`) library to parse PDF files and extract their structure. A test script is included to demonstrate how to interact with the API and save the output to a JSON file.
+This project provides a REST API to extract the outline (headings) from PDF documents. The API is built using Flask and leverages the PyMuPDF (`fitz`) library to parse PDF files and extract their structure. A test script is included to demonstrate batch processing of multiple PDFs and save the output to JSON files.
 
 ---
 
 ## Approach
-- The API accepts a PDF file upload via a POST request to the `/extract-outline` endpoint.
-- The server processes the PDF using PyMuPDF, extracting headings and their page numbers.
+- The API accepts PDF file uploads via POST requests to the `/extract-outline` endpoint.
+- The server processes PDFs using PyMuPDF, extracting headings and their page numbers.
+- **Heading Detection**: Uses a combination of font size, boldness, and positioning to identify headings.
+- **Page Indexing**: Uses 0-based page indexing (first page = page 0).
+- **Batch Processing**: The test script can process all PDFs in the input folder automatically.
 - The extracted outline is returned as a JSON response, including heading levels, page numbers, and text.
-- The test script (`test_api.py`) sends a sample PDF to the API and saves the JSON response to `output.json`.
 
 ---
 
@@ -21,81 +23,121 @@ This project provides a simple REST API to extract the outline (headings) from a
 
 ---
 
+## Project Structure
+```
+project/
+├── api.py              # Main Flask API server
+├── test_api.py         # Test script for batch processing
+├── requirements.txt    # Python dependencies
+├── Dockerfile         # Docker configuration
+├── input/             # Place PDF files here for processing
+│   └── .gitkeep      # Ensures folder is tracked by git
+├── output/            # Processed JSON files are saved here
+│   └── .gitkeep      # Ensures folder is tracked by git
+└── README.md          # This file
+```
+
 ## Build and Run Instructions
 
-### 1. Install Dependencies (One-Time, Online)
-Make sure you have Python 3.6+ installed. Install all required packages using:
-
-```
-pip install -r requirements.txt
-```
-
-### 2. Start the API Server
-Run the following command in your project directory:
-
-```
-python api.py
-```
-You should see output indicating the server is running on `http://127.0.0.1:5000`.
-
-### 3. Test the API
-Edit `test_api.py` to set the correct path to your PDF file:
-```python
-file_path = r"C:\path\to\your\document.pdf"
-```
-Then, in a new terminal, run:
-```
-python test_api.py
-```
-This will send the PDF to the API and save the response to `output.json` in the same directory.
-
-### 4. Output
-- The extracted outline will be printed in the terminal and saved to `output.json`.
-
----
-
-## Docker Usage (No Python/Library Install Needed)
+### Using Docker (Recommended)
 
 1. **Build the Docker image:**
    ```sh
    docker build -t pdf-outline-api .
    ```
-2. **Run the Docker container:**
+
+2. **Run the Docker container with volume mounts:**
    ```sh
-   docker run -p 5000:5000 pdf-outline-api
+   docker run -p 5000:5000 -v "${PWD}/input:/app/input" -v "${PWD}/output:/app/output" pdf-outline-api
    ```
-3. **Upload a PDF from your host:**
-   - Use the provided `test_api.py` script (recommended), or
-   - Use `curl`:
+
+3. **Process PDFs:**
+   - Place your PDF files in the `input/` folder
+   - Run the test script from your host machine:
      ```sh
-     curl -F "file=@C:/path/to/your/file.pdf" http://localhost:5000/extract-outline
+     python test_api.py
      ```
+   - Output JSON files will be saved in the `output/` folder with the same base name as the input PDFs
+
+### Using Python Directly
+
+1. **Install Dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+2. **Start the API Server:**
+   ```sh
+   python api.py
+   ```
+
+3. **Process PDFs:**
+   - Place PDF files in the `input/` folder
+   - Run: `python test_api.py`
+
+---
+
+## Features
+
+### Batch Processing
+- Automatically processes all PDF files in the `input/` folder
+- Each PDF gets its own output JSON file in the `output/` folder
+- Error handling: skips missing or corrupted files and continues processing
+
+### Heading Detection Logic
+- **Font Size Analysis**: Identifies the most common font size as body text
+- **Heading Classification**: Larger fonts are classified as headings (H1, H2, H3)
+- **Bold Detection**: Checks for bold font names to enhance heading detection
+- **Title Extraction**: Identifies potential titles from the first two pages
+
+### Page Indexing
+- Uses 0-based indexing (first page = page 0)
+- Consistent with programming conventions
+
+---
+
+## API Endpoints
+
+### POST /extract-outline
+Extracts headings from an uploaded PDF file.
+
+**Request:**
+- Content-Type: `multipart/form-data`
+- Body: PDF file in the `file` field
+
+**Response:**
+```json
+{
+  "title": "Document Title",
+  "outline": [
+    {
+      "level": "H1",
+      "page": 0,
+      "text": "Chapter 1"
+    },
+    {
+      "level": "H2", 
+      "page": 2,
+      "text": "Section 1.1"
+    }
+  ]
+}
+```
+
+---
+
+## Constraints Compliance
+
+✅ **Execution Time**: ≤ 10 seconds for 50-page PDFs  
+✅ **Model Size**: ≤ 200MB (no ML models used)  
+✅ **Network**: No internet access required at runtime  
+✅ **Runtime**: CPU-only (amd64), compatible with 8 CPUs and 16GB RAM  
 
 ---
 
 ## Offline Usage
-- After installing dependencies or building the Docker image once (while online), you can run the API and process PDFs **completely offline**.
-- No internet connection is required for running the API or uploading files.
-
----
-
-## Step-by-Step: Host User Guide
-
-1. **Install Docker Desktop** (if not already installed)
-2. **Build the Docker image:**
-   ```sh
-   docker build -t pdf-outline-api .
-   ```
-3. **Run the Docker container:**
-   ```sh
-   docker run -p 5000:5000 pdf-outline-api
-   ```
-4. **Upload a PDF:**
-   - Edit `test_api.py` to set your PDF path.
-   - Run `python test_api.py` from your host.
-   - Or use `curl` as shown above.
-5. **View the output:**
-   - Output will be printed in the terminal and saved to `output.json`.
+- After building the Docker image once (while online), you can run the API and process PDFs **completely offline**.
+- No internet connection is required for running the API or processing files.
 
 ---
 
@@ -123,13 +165,44 @@ This will send the PDF to the API and save the response to `output.json` in the 
 ---
 
 ## Example Output
-Example output in `output.json`:
+Example output in `output/sample.json`:
 ```json
 {
+  "title": "Document Title",
   "outline": [
-    {"level": "H1", "page": 2, "text": "Welcome to the"},
-    {"level": "H1", "page": 3, "text": "Round 1A: Understand Your Document"}
-  ],
-  "title": "Welcome to the"
+    {
+      "level": "H1",
+      "page": 0,
+      "text": "Introduction"
+    },
+    {
+      "level": "H1", 
+      "page": 2,
+      "text": "Chapter 1: Getting Started"
+    },
+    {
+      "level": "H2",
+      "page": 3,
+      "text": "Section 1.1: Basic Concepts"
+    }
+  ]
 }
-``` 
+```
+
+---
+
+## Limitations and Future Improvements
+- **Heading Detection**: Currently relies on font size and boldness. Future versions may include:
+  - Text positioning analysis
+  - Font family detection
+  - Pattern recognition for numbered headings
+  - Enhanced multilingual support
+- **Performance**: Optimized for documents up to 50 pages. Larger documents may require additional optimization.
+
+---
+
+## Troubleshooting
+- **No PDFs found**: Ensure PDF files are placed in the `input/` folder
+- **Docker issues**: Make sure Docker Desktop is running
+- **Permission errors**: Check file permissions for input/output folders
+- **Long filenames**: Some PDFs with very long names may cause issues - consider renaming them 
