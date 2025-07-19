@@ -1,0 +1,9 @@
+# Ignore PDF files in input folder
+input/*.pdf
+
+# Ignore JSON output files in output folder  
+output/*.json
+
+# Keep the folders themselves
+!input/
+!output/ 
