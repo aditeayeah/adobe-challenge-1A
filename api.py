@@ -69,7 +69,7 @@ def extract_outline_from_stream(pdf_stream):
             current_heading["text"] = ""
             current_heading["level"] = None
 
-    for page_num, page in enumerate(doc, 1):
+    for page_num, page in enumerate(doc, 0):
         blocks = page.get_text("dict")["blocks"]
         for b in blocks:
             if b['type'] == 0:
@@ -82,7 +82,7 @@ def extract_outline_from_stream(pdf_stream):
                     size = round(span['size'])
                     font = span['font']
 
-                    if page_num <= 2 and size > max_title_size:
+                    if page_num <= 1 and size > max_title_size:
                         max_title_size = size
                         potential_title = text
 
