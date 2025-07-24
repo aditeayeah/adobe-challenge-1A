@@ -9,18 +9,16 @@ try:
 except ImportError:
     raise ImportError("Flask is not installed. Please install it with 'pip install flask'.")
 
-# Initialize the Flask application
 app = Flask(__name__)
 
 def get_font_statistics(doc):
-    """Analyzes the document to find common font sizes and styles."""
     font_counts = Counter()
     size_counts = Counter()
 
     for page in doc:
         blocks = page.get_text("dict")["blocks"]
         for b in blocks:
-            if b['type'] == 0:  # Text block
+            if b['type'] == 0:
                 for l in b["lines"]:
                     for s in l["spans"]:
                         font_counts[s['font']] += 1
@@ -40,13 +38,9 @@ def get_font_statistics(doc):
     return body_size, heading_levels
 
 def is_bold(font_name):
-    """Checks if a font name suggests it's bold."""
     return any(x in font_name.lower() for x in ['bold', 'black', 'heavy'])
 
 def extract_outline_from_stream(pdf_stream):
-    """
-    Extracts the title and outline from a PDF provided as an in-memory stream.
-    """
     doc = fitz.open(stream=pdf_stream, filetype="pdf")
     if doc.page_count == 0:
         return {"title": "", "outline": []}
@@ -107,33 +101,21 @@ def extract_outline_from_stream(pdf_stream):
 
 @app.route('/extract-outline', methods=['POST'])
 def handle_extract_outline():
-    """
-    API endpoint to extract outline from an uploaded PDF file.
-    """
-    # Check if a file was uploaded
     if 'file' not in request.files:
         return jsonify({"error": "No file part in the request"}), 400
     
     file = request.files['file']
     
-    # Check if the file is a PDF
     if file.filename == '' or not file.filename.lower().endswith('.pdf'):
         return jsonify({"error": "No selected file or file is not a PDF"}), 400
     
     try:
-        # Read the file into an in-memory stream
         pdf_stream = io.BytesIO(file.read())
-        
-        # Process the stream
         result = extract_outline_from_stream(pdf_stream)
-        
-        # Return the result as JSON
         return jsonify(result)
         
     except Exception as e:
         return jsonify({"error": f"An error occurred during processing: {str(e)}"}), 500
 
 if __name__ == '__main__':
-    # Run the Flask app. 
-    # Use host='0.0.0.0' to make it accessible from outside the container.
     app.run(host='0.0.0.0', port=5000, debug=True)

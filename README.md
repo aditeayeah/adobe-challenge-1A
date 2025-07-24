@@ -59,6 +59,15 @@ project/
      ```
    - Output JSON files will be saved in the `output/` folder with the same base name as the input PDFs
 
+#### Advanced: Custom Docker Build/Run (with platform and repo identifier)
+
+You can build and run the Docker image with a custom repository name/identifier and platform targeting (e.g., for CI/CD or reproducibility):
+
+```sh
+docker build --platform linux/amd64 -t <reponame.someidentifier> .
+docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output/repoidentifier/:/app/output --name <reponame.someidentifier> <reponame.someidentifier>
+```
+
 ### Using Python Directly
 
 1. **Install Dependencies:**
@@ -177,7 +186,7 @@ Example output in `output/sample.json`:
     },
     {
       "level": "H1", 
-      "page": 2,
+      "page": 21,
       "text": "Chapter 1: Getting Started"
     },
     {

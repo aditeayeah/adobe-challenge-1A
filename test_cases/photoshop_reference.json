@@ -1,0 +1,1660 @@
+{
+    "outline": [
+        {
+            "level": "H1",
+            "page": 0,
+            "text": "Adobe Photoshop"
+        },
+        {
+            "level": "H2",
+            "page": 2,
+            "text": "Contents"
+        },
+        {
+            "level": "H2",
+            "page": 10,
+            "text": "Chapter 1: Introduction to Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 10,
+            "text": "What's new in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 16,
+            "text": "Create documents"
+        },
+        {
+            "level": "H3",
+            "page": 25,
+            "text": "Photoshop | Common Questions"
+        },
+        {
+            "level": "H3",
+            "page": 27,
+            "text": "Photoshop system requirements"
+        },
+        {
+            "level": "H3",
+            "page": 30,
+            "text": "Photoshop manual (PDF)"
+        },
+        {
+            "level": "H3",
+            "page": 30,
+            "text": "Migrate presets, actions, and settings"
+        },
+        {
+            "level": "H2",
+            "page": 35,
+            "text": "Chapter 2: Photoshop and Adobe services"
+        },
+        {
+            "level": "H3",
+            "page": 35,
+            "text": "Creative Cloud Libraries in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 43,
+            "text": "Use the Adobe Color Themes extension"
+        },
+        {
+            "level": "H3",
+            "page": 55,
+            "text": "Touch capabilities and customizable workspaces"
+        },
+        {
+            "level": "H3",
+            "page": 58,
+            "text": "Error: Waiting for Bridge | Mini Bridge panel"
+        },
+        {
+            "level": "H3",
+            "page": 60,
+            "text": "Untab image windows"
+        },
+        {
+            "level": "H2",
+            "page": 62,
+            "text": "Chapter 3: Photoshop on the iPad"
+        },
+        {
+            "level": "H3",
+            "page": 62,
+            "text": "Photoshop on the iPad | Common questions"
+        },
+        {
+            "level": "H3",
+            "page": 69,
+            "text": "Get to know the workspace"
+        },
+        {
+            "level": "H3",
+            "page": 74,
+            "text": "System requirements | Photoshop on the iPad"
+        },
+        {
+            "level": "H3",
+            "page": 76,
+            "text": "Add photos to your canvas"
+        },
+        {
+            "level": "H3",
+            "page": 78,
+            "text": "Work with layers"
+        },
+        {
+            "level": "H3",
+            "page": 83,
+            "text": "Make selections and add masks"
+        },
+        {
+            "level": "H3",
+            "page": 89,
+            "text": "Retouch your composites"
+        },
+        {
+            "level": "H3",
+            "page": 93,
+            "text": "Draw and paint with brushes"
+        },
+        {
+            "level": "H3",
+            "page": 97,
+            "text": "Apply transform operations"
+        },
+        {
+            "level": "H3",
+            "page": 99,
+            "text": "Crop and rotate your composites"
+        },
+        {
+            "level": "H3",
+            "page": 100,
+            "text": "Pan, zoom, and reset canvas"
+        },
+        {
+            "level": "H3",
+            "page": 103,
+            "text": "Work with Type layers"
+        },
+        {
+            "level": "H3",
+            "page": 108,
+            "text": "Japanese Text in Photoshop on the iPad"
+        },
+        {
+            "level": "H3",
+            "page": 108,
+            "text": "Manage app settings"
+        },
+        {
+            "level": "H3",
+            "page": 111,
+            "text": "Touch shortcuts and gestures"
+        },
+        {
+            "level": "H3",
+            "page": 114,
+            "text": "Keyboard shortcuts"
+        },
+        {
+            "level": "H2",
+            "page": 117,
+            "text": "Chapter 4: Cloud documents"
+        },
+        {
+            "level": "H3",
+            "page": 117,
+            "text": "Photoshop cloud documents | Common questions"
+        },
+        {
+            "level": "H3",
+            "page": 119,
+            "text": "Photoshop cloud documents | Workflow questions"
+        },
+        {
+            "level": "H3",
+            "page": 126,
+            "text": "Create, open, and export cloud documents"
+        },
+        {
+            "level": "H3",
+            "page": 130,
+            "text": "Manage and work with cloud documents in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 137,
+            "text": "Get missing fonts in Photoshop on the iPad"
+        },
+        {
+            "level": "H3",
+            "page": 138,
+            "text": "Upgrade cloud storage for Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 139,
+            "text": "Solve Photoshop cloud document errors"
+        },
+        {
+            "level": "H2",
+            "page": 144,
+            "text": "Chapter 5: Workspace"
+        },
+        {
+            "level": "H3",
+            "page": 144,
+            "text": "Photoshop search"
+        },
+        {
+            "level": "H3",
+            "page": 150,
+            "text": "Use the Touch Bar with Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 154,
+            "text": "Microsoft Dial support in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 157,
+            "text": "Tool galleries"
+        },
+        {
+            "level": "H3",
+            "page": 164,
+            "text": "Performance preferences"
+        },
+        {
+            "level": "H3",
+            "page": 169,
+            "text": "Use tools"
+        },
+        {
+            "level": "H3",
+            "page": 173,
+            "text": "Touch gestures"
+        },
+        {
+            "level": "H3",
+            "page": 173,
+            "text": "Technology previews"
+        },
+        {
+            "level": "H3",
+            "page": 174,
+            "text": "Metadata and notes"
+        },
+        {
+            "level": "H3",
+            "page": 176,
+            "text": "Quickly share your creations"
+        },
+        {
+            "level": "H3",
+            "page": 178,
+            "text": "Place Photoshop images in other applications"
+        },
+        {
+            "level": "H3",
+            "page": 181,
+            "text": "Preferences"
+        },
+        {
+            "level": "H3",
+            "page": 183,
+            "text": "Default keyboard shortcuts"
+        },
+        {
+            "level": "H3",
+            "page": 205,
+            "text": "Rulers"
+        },
+        {
+            "level": "H3",
+            "page": 206,
+            "text": "Show or hide non-printing Extras"
+        },
+        {
+            "level": "H3",
+            "page": 207,
+            "text": "Specify columns for an image"
+        },
+        {
+            "level": "H3",
+            "page": 207,
+            "text": "Undo and history"
+        },
+        {
+            "level": "H3",
+            "page": 213,
+            "text": "Panels and menus"
+        },
+        {
+            "level": "H3",
+            "page": 218,
+            "text": "Place files"
+        },
+        {
+            "level": "H3",
+            "page": 220,
+            "text": "Position elements with snapping"
+        },
+        {
+            "level": "H3",
+            "page": 221,
+            "text": "Position with the Ruler tool"
+        },
+        {
+            "level": "H3",
+            "page": 222,
+            "text": "Presets"
+        },
+        {
+            "level": "H3",
+            "page": 224,
+            "text": "Customize keyboard shortcuts"
+        },
+        {
+            "level": "H3",
+            "page": 226,
+            "text": "Grid and guides"
+        },
+        {
+            "level": "H2",
+            "page": 231,
+            "text": "Chapter 6: Web, screen, and app design"
+        },
+        {
+            "level": "H3",
+            "page": 231,
+            "text": "Photoshop for design"
+        },
+        {
+            "level": "H3",
+            "page": 237,
+            "text": "Artboards"
+        },
+        {
+            "level": "H3",
+            "page": 246,
+            "text": "Device Preview"
+        },
+        {
+            "level": "H3",
+            "page": 250,
+            "text": "Slice web pages"
+        },
+        {
+            "level": "H3",
+            "page": 253,
+            "text": "HTML options for slices"
+        },
+        {
+            "level": "H3",
+            "page": 256,
+            "text": "Modify slice layout"
+        },
+        {
+            "level": "H3",
+            "page": 260,
+            "text": "Work with web graphics"
+        },
+        {
+            "level": "H3",
+            "page": 261,
+            "text": "Create web photo galleries"
+        },
+        {
+            "level": "H2",
+            "page": 269,
+            "text": "Chapter 7: Image and color basics"
+        },
+        {
+            "level": "H3",
+            "page": 269,
+            "text": "How to resize images"
+        },
+        {
+            "level": "H3",
+            "page": 269,
+            "text": "Video | Resizing images in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 271,
+            "text": "Image essentials"
+        },
+        {
+            "level": "H3",
+            "page": 273,
+            "text": "Image size and resolution"
+        },
+        {
+            "level": "H3",
+            "page": 280,
+            "text": "Acquire images from cameras and scanners"
+        },
+        {
+            "level": "H3",
+            "page": 282,
+            "text": "Create, open, and import images"
+        },
+        {
+            "level": "H3",
+            "page": 287,
+            "text": "View images"
+        },
+        {
+            "level": "H3",
+            "page": 292,
+            "text": "Invalid JPEG Marker error | Opening images"
+        },
+        {
+            "level": "H3",
+            "page": 294,
+            "text": "Viewing multiple images"
+        },
+        {
+            "level": "H3",
+            "page": 295,
+            "text": "Customize color pickers and swatches"
+        },
+        {
+            "level": "H3",
+            "page": 297,
+            "text": "High dynamic range images"
+        },
+        {
+            "level": "H3",
+            "page": 305,
+            "text": "Match, replace, and mix colors"
+        },
+        {
+            "level": "H3",
+            "page": 311,
+            "text": "Convert between color modes"
+        },
+        {
+            "level": "H3",
+            "page": 316,
+            "text": "Color modes"
+        },
+        {
+            "level": "H3",
+            "page": 318,
+            "text": "Erase parts of an image"
+        },
+        {
+            "level": "H3",
+            "page": 322,
+            "text": "Blending modes"
+        },
+        {
+            "level": "H3",
+            "page": 326,
+            "text": "Choose colors"
+        },
+        {
+            "level": "H3",
+            "page": 333,
+            "text": "Customize indexed color tables"
+        },
+        {
+            "level": "H3",
+            "page": 334,
+            "text": "Image information"
+        },
+        {
+            "level": "H3",
+            "page": 338,
+            "text": "Distort filters are unavailable"
+        },
+        {
+            "level": "H3",
+            "page": 338,
+            "text": "About color"
+        },
+        {
+            "level": "H3",
+            "page": 340,
+            "text": "Color and monochrome adjustments using channels"
+        },
+        {
+            "level": "H3",
+            "page": 343,
+            "text": "Choose colors in the Color and Swatches panels"
+        },
+        {
+            "level": "H3",
+            "page": 346,
+            "text": "Sample"
+        },
+        {
+            "level": "H3",
+            "page": 347,
+            "text": "Color mode or Image mode"
+        },
+        {
+            "level": "H3",
+            "page": 347,
+            "text": "Color cast"
+        },
+        {
+            "level": "H3",
+            "page": 348,
+            "text": "Add swatches from HTML CSS and SVG"
+        },
+        {
+            "level": "H2",
+            "page": 349,
+            "text": "Chapter 8: Layers"
+        },
+        {
+            "level": "H3",
+            "page": 349,
+            "text": "Layer basics"
+        },
+        {
+            "level": "H3",
+            "page": 353,
+            "text": "Nondestructive editing"
+        },
+        {
+            "level": "H3",
+            "page": 353,
+            "text": "Create and manage layers and groups"
+        },
+        {
+            "level": "H3",
+            "page": 357,
+            "text": "Select, group, and link layers"
+        },
+        {
+            "level": "H3",
+            "page": 359,
+            "text": "Place images into frames"
+        },
+        {
+            "level": "H3",
+            "page": 362,
+            "text": "Layer opacity and blending"
+        },
+        {
+            "level": "H3",
+            "page": 366,
+            "text": "Mask layers"
+        },
+        {
+            "level": "H3",
+            "page": 366,
+            "text": "Video tutorial: Mask out part of an image"
+        },
+        {
+            "level": "H3",
+            "page": 366,
+            "text": "Video tutorial: Remove a person from the background"
+        },
+        {
+            "level": "H3",
+            "page": 366,
+            "text": "with masking"
+        },
+        {
+            "level": "H3",
+            "page": 370,
+            "text": "Apply Smart Filters"
+        },
+        {
+            "level": "H3",
+            "page": 370,
+            "text": "Video tutorial: Learn Photoshop Smart filters"
+        },
+        {
+            "level": "H3",
+            "page": 374,
+            "text": "Layer comps"
+        },
+        {
+            "level": "H3",
+            "page": 376,
+            "text": "Move, stack, and lock layers"
+        },
+        {
+            "level": "H3",
+            "page": 378,
+            "text": "Mask layers with vector masks"
+        },
+        {
+            "level": "H3",
+            "page": 379,
+            "text": "Manage layers and groups"
+        },
+        {
+            "level": "H3",
+            "page": 382,
+            "text": "Layer effects and styles"
+        },
+        {
+            "level": "H3",
+            "page": 383,
+            "text": "How to use new Presets in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 392,
+            "text": "Edit layer masks"
+        },
+        {
+            "level": "H3",
+            "page": 392,
+            "text": "Extract assets"
+        },
+        {
+            "level": "H3",
+            "page": 395,
+            "text": "Reveal layers with clipping masks"
+        },
+        {
+            "level": "H3",
+            "page": 396,
+            "text": "Generate image assets from layers"
+        },
+        {
+            "level": "H3",
+            "page": 396,
+            "text": "Video: Generate web assets in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 402,
+            "text": "Work with Smart Objects"
+        },
+        {
+            "level": "H3",
+            "page": 409,
+            "text": "Combine multiple images into a group portrait"
+        },
+        {
+            "level": "H3",
+            "page": 410,
+            "text": "Combine images with Auto-Blend Layers"
+        },
+        {
+            "level": "H3",
+            "page": 411,
+            "text": "Align and distribute layers"
+        },
+        {
+            "level": "H3",
+            "page": 413,
+            "text": "Copy CSS from layers"
+        },
+        {
+            "level": "H3",
+            "page": 414,
+            "text": "Load selections from a layer or layer mask's boundaries"
+        },
+        {
+            "level": "H3",
+            "page": 415,
+            "text": "Knockout to reveal content from other layers"
+        },
+        {
+            "level": "H3",
+            "page": 416,
+            "text": "Layer"
+        },
+        {
+            "level": "H3",
+            "page": 417,
+            "text": "Flattening"
+        },
+        {
+            "level": "H3",
+            "page": 417,
+            "text": "Composite"
+        },
+        {
+            "level": "H3",
+            "page": 418,
+            "text": "Background"
+        },
+        {
+            "level": "H2",
+            "page": 420,
+            "text": "Chapter 9: Selections"
+        },
+        {
+            "level": "H3",
+            "page": 420,
+            "text": "Select And Mask workspace"
+        },
+        {
+            "level": "H3",
+            "page": 425,
+            "text": "Make quick selections"
+        },
+        {
+            "level": "H3",
+            "page": 430,
+            "text": "Make selections"
+        },
+        {
+            "level": "H3",
+            "page": 431,
+            "text": "Select with the marquee tools"
+        },
+        {
+            "level": "H3",
+            "page": 431,
+            "text": "Video tutorial: Select part of an image"
+        },
+        {
+            "level": "H3",
+            "page": 433,
+            "text": "Select with the lasso tools"
+        },
+        {
+            "level": "H3",
+            "page": 435,
+            "text": "Select a color range in an image"
+        },
+        {
+            "level": "H3",
+            "page": 438,
+            "text": "Adjust pixel selections"
+        },
+        {
+            "level": "H3",
+            "page": 445,
+            "text": "Extract an object from its background"
+        },
+        {
+            "level": "H3",
+            "page": 445,
+            "text": "Convert between paths and selection borders"
+        },
+        {
+            "level": "H3",
+            "page": 446,
+            "text": "Channel basics"
+        },
+        {
+            "level": "H3",
+            "page": 449,
+            "text": "Move, copy, and delete selected pixels"
+        },
+        {
+            "level": "H3",
+            "page": 454,
+            "text": "Create a temporary quick mask"
+        },
+        {
+            "level": "H3",
+            "page": 456,
+            "text": "Save selections and alpha channel masks"
+        },
+        {
+            "level": "H3",
+            "page": 456,
+            "text": "Video tutorial: Mask out part of an image"
+        },
+        {
+            "level": "H3",
+            "page": 460,
+            "text": "Select the image areas in focus"
+        },
+        {
+            "level": "H3",
+            "page": 462,
+            "text": "Duplicate, split, and merge channels"
+        },
+        {
+            "level": "H3",
+            "page": 464,
+            "text": "Channel calculations"
+        },
+        {
+            "level": "H3",
+            "page": 466,
+            "text": "Selection"
+        },
+        {
+            "level": "H3",
+            "page": 467,
+            "text": "Bounding box"
+        },
+        {
+            "level": "H2",
+            "page": 469,
+            "text": "Chapter 10: Image adjustments"
+        },
+        {
+            "level": "H3",
+            "page": 469,
+            "text": "Perspective warp"
+        },
+        {
+            "level": "H3",
+            "page": 477,
+            "text": "Reduce camera shake blurring"
+        },
+        {
+            "level": "H3",
+            "page": 477,
+            "text": "Video | Using the camera shake reduction filter"
+        },
+        {
+            "level": "H3",
+            "page": 484,
+            "text": "Healing brush examples"
+        },
+        {
+            "level": "H3",
+            "page": 511,
+            "text": "Export color lookup tables"
+        },
+        {
+            "level": "H3",
+            "page": 512,
+            "text": "Adjust image sharpness and blur"
+        },
+        {
+            "level": "H3",
+            "page": 512,
+            "text": "Video | Sharpening in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 512,
+            "text": "Video | Selective focus in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 518,
+            "text": "Understand color adjustments"
+        },
+        {
+            "level": "H3",
+            "page": 524,
+            "text": "Apply a Brightness/Contrast adjustment"
+        },
+        {
+            "level": "H3",
+            "page": 525,
+            "text": "Adjust shadow and highlight detail"
+        },
+        {
+            "level": "H3",
+            "page": 525,
+            "text": "From an expert: Shadows/Highlights"
+        },
+        {
+            "level": "H3",
+            "page": 527,
+            "text": "Levels adjustment"
+        },
+        {
+            "level": "H3",
+            "page": 530,
+            "text": "Adjust hue and saturation"
+        },
+        {
+            "level": "H3",
+            "page": 534,
+            "text": "Make quick tonal adjustments"
+        },
+        {
+            "level": "H3",
+            "page": 537,
+            "text": "Apply special color effects to images"
+        },
+        {
+            "level": "H3",
+            "page": 539,
+            "text": "Apply the Color Balance adjustment"
+        },
+        {
+            "level": "H3",
+            "page": 541,
+            "text": "View histograms and pixel values"
+        },
+        {
+            "level": "H3",
+            "page": 546,
+            "text": "Convert a color image to black and white"
+        },
+        {
+            "level": "H3",
+            "page": 547,
+            "text": "Video tutorial: Creative black and white"
+        },
+        {
+            "level": "H3",
+            "page": 547,
+            "text": "Video | Black and White adjustment layer"
+        },
+        {
+            "level": "H3",
+            "page": 547,
+            "text": "Adjustment and fill layers"
+        },
+        {
+            "level": "H3",
+            "page": 551,
+            "text": "Curves adjustment"
+        },
+        {
+            "level": "H3",
+            "page": 555,
+            "text": "Target images for press"
+        },
+        {
+            "level": "H3",
+            "page": 558,
+            "text": "Adjust color and tone with Levels and Curves"
+        },
+        {
+            "level": "H3",
+            "page": 558,
+            "text": "eyedroppers"
+        },
+        {
+            "level": "H3",
+            "page": 559,
+            "text": "Adjust HDR exposure and toning"
+        },
+        {
+            "level": "H3",
+            "page": 560,
+            "text": "Filter"
+        },
+        {
+            "level": "H3",
+            "page": 561,
+            "text": "Blur"
+        },
+        {
+            "level": "H3",
+            "page": 561,
+            "text": "Dodge or burn image areas"
+        },
+        {
+            "level": "H2",
+            "page": 563,
+            "text": "Chapter 11: Adobe Camera Raw"
+        },
+        {
+            "level": "H2",
+            "page": 564,
+            "text": "Chapter 12: Image repair and restoration"
+        },
+        {
+            "level": "H3",
+            "page": 564,
+            "text": "Remove objects from your photos with Content-Aware"
+        },
+        {
+            "level": "H3",
+            "page": 564,
+            "text": "Fill"
+        },
+        {
+            "level": "H3",
+            "page": 569,
+            "text": "Content-Aware Patch and Move"
+        },
+        {
+            "level": "H3",
+            "page": 570,
+            "text": "Retouch and repair photos"
+        },
+        {
+            "level": "H3",
+            "page": 578,
+            "text": "Correct image distortion and noise"
+        },
+        {
+            "level": "H2",
+            "page": 583,
+            "text": "Chapter 13: Image transformations"
+        },
+        {
+            "level": "H3",
+            "page": 583,
+            "text": "Transform objects"
+        },
+        {
+            "level": "H3",
+            "page": 587,
+            "text": "Adjust crop, rotation, and canvas size"
+        },
+        {
+            "level": "H3",
+            "page": 587,
+            "text": "Video | Cropping and straightening photos"
+        },
+        {
+            "level": "H3",
+            "page": 591,
+            "text": "How to crop and straighten photos"
+        },
+        {
+            "level": "H3",
+            "page": 594,
+            "text": "Create and edit panoramic images"
+        },
+        {
+            "level": "H3",
+            "page": 599,
+            "text": "Warp images, shapes, and paths"
+        },
+        {
+            "level": "H3",
+            "page": 603,
+            "text": "Vanishing Point"
+        },
+        {
+            "level": "H3",
+            "page": 618,
+            "text": "Content-aware scaling"
+        },
+        {
+            "level": "H3",
+            "page": 619,
+            "text": "Transform images, shapes, and paths"
+        },
+        {
+            "level": "H3",
+            "page": 621,
+            "text": "Warp"
+        },
+        {
+            "level": "H3",
+            "page": 622,
+            "text": "Transform"
+        },
+        {
+            "level": "H3",
+            "page": 622,
+            "text": "Panorama"
+        },
+        {
+            "level": "H2",
+            "page": 624,
+            "text": "Chapter 14: Drawing and painting"
+        },
+        {
+            "level": "H3",
+            "page": 624,
+            "text": "Paint symmetrical patterns"
+        },
+        {
+            "level": "H3",
+            "page": 628,
+            "text": "Modify shapes"
+        },
+        {
+            "level": "H3",
+            "page": 629,
+            "text": "About drawing"
+        },
+        {
+            "level": "H3",
+            "page": 630,
+            "text": "Draw shapes"
+        },
+        {
+            "level": "H3",
+            "page": 635,
+            "text": "Painting tools"
+        },
+        {
+            "level": "H3",
+            "page": 638,
+            "text": "Create and modify brushes"
+        },
+        {
+            "level": "H3",
+            "page": 649,
+            "text": "Add color to paths"
+        },
+        {
+            "level": "H3",
+            "page": 651,
+            "text": "Edit paths"
+        },
+        {
+            "level": "H3",
+            "page": 660,
+            "text": "Paint with the Mixer Brush"
+        },
+        {
+            "level": "H3",
+            "page": 663,
+            "text": "Brush presets"
+        },
+        {
+            "level": "H3",
+            "page": 666,
+            "text": "Gradients"
+        },
+        {
+            "level": "H3",
+            "page": 672,
+            "text": "Fill and stroke selections, layers, and paths"
+        },
+        {
+            "level": "H3",
+            "page": 675,
+            "text": "Draw with the Pen tools"
+        },
+        {
+            "level": "H3",
+            "page": 688,
+            "text": "Create patterns"
+        },
+        {
+            "level": "H3",
+            "page": 688,
+            "text": "Generate a pattern using the Pattern Maker"
+        },
+        {
+            "level": "H3",
+            "page": 690,
+            "text": "Manage paths"
+        },
+        {
+            "level": "H3",
+            "page": 692,
+            "text": "Manage pattern libraries and presets"
+        },
+        {
+            "level": "H3",
+            "page": 694,
+            "text": "Draw or paint with a graphics tablet"
+        },
+        {
+            "level": "H3",
+            "page": 694,
+            "text": "Create textured brushes"
+        },
+        {
+            "level": "H3",
+            "page": 696,
+            "text": "Add dynamic elements to brushes"
+        },
+        {
+            "level": "H3",
+            "page": 699,
+            "text": "Gradient"
+        },
+        {
+            "level": "H3",
+            "page": 700,
+            "text": "Paint stylized strokes with the Art History Brush"
+        },
+        {
+            "level": "H3",
+            "page": 701,
+            "text": "Paint with a pattern"
+        },
+        {
+            "level": "H2",
+            "page": 702,
+            "text": "Chapter 15: Text"
+        },
+        {
+            "level": "H3",
+            "page": 702,
+            "text": "Work with OpenType SVG fonts"
+        },
+        {
+            "level": "H3",
+            "page": 704,
+            "text": "Format characters"
+        },
+        {
+            "level": "H3",
+            "page": 709,
+            "text": "Format paragraphs"
+        },
+        {
+            "level": "H3",
+            "page": 715,
+            "text": "How to create type effects"
+        },
+        {
+            "level": "H3",
+            "page": 720,
+            "text": "Edit text"
+        },
+        {
+            "level": "H3",
+            "page": 725,
+            "text": "Line and character spacing"
+        },
+        {
+            "level": "H3",
+            "page": 728,
+            "text": "Arabic and Hebrew type"
+        },
+        {
+            "level": "H3",
+            "page": 728,
+            "text": "How to access Arabic and Hebrew features in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 731,
+            "text": "Fonts"
+        },
+        {
+            "level": "H3",
+            "page": 739,
+            "text": "Troubleshoot fonts"
+        },
+        {
+            "level": "H3",
+            "page": 742,
+            "text": "Asian type"
+        },
+        {
+            "level": "H3",
+            "page": 749,
+            "text": "Create type"
+        },
+        {
+            "level": "H3",
+            "page": 752,
+            "text": "Text Engine error using Type tool in Photoshop |"
+        },
+        {
+            "level": "H3",
+            "page": 752,
+            "text": "Windows 8"
+        },
+        {
+            "level": "H3",
+            "page": 753,
+            "text": "World-Ready composer for Asian Scripts"
+        },
+        {
+            "level": "H2",
+            "page": 757,
+            "text": "Chapter 16: Video and animation"
+        },
+        {
+            "level": "H3",
+            "page": 757,
+            "text": "Video editing in Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 757,
+            "text": "Video | Walk through a video project"
+        },
+        {
+            "level": "H3",
+            "page": 759,
+            "text": "Edit video and animation layers"
+        },
+        {
+            "level": "H3",
+            "page": 763,
+            "text": "Video and animation overview"
+        },
+        {
+            "level": "H3",
+            "page": 769,
+            "text": "Preview video and animations"
+        },
+        {
+            "level": "H3",
+            "page": 772,
+            "text": "Paint frames in video layers"
+        },
+        {
+            "level": "H3",
+            "page": 774,
+            "text": "Import video files and image sequences"
+        },
+        {
+            "level": "H3",
+            "page": 777,
+            "text": "Create frame animations"
+        },
+        {
+            "level": "H3",
+            "page": 784,
+            "text": "Create timeline animations"
+        },
+        {
+            "level": "H3",
+            "page": 790,
+            "text": "Create images for video"
+        },
+        {
+            "level": "H2",
+            "page": 796,
+            "text": "Chapter 17: Filters and effects"
+        },
+        {
+            "level": "H3",
+            "page": 796,
+            "text": "Use the Blur Gallery"
+        },
+        {
+            "level": "H3",
+            "page": 805,
+            "text": "Filter basics"
+        },
+        {
+            "level": "H3",
+            "page": 809,
+            "text": "Filter effects reference"
+        },
+        {
+            "level": "H3",
+            "page": 819,
+            "text": "Add Lighting Effects"
+        },
+        {
+            "level": "H3",
+            "page": 823,
+            "text": "Use the Adaptive Wide Angle filter"
+        },
+        {
+            "level": "H3",
+            "page": 823,
+            "text": "From an expert: Adaptive wide angle filter"
+        },
+        {
+            "level": "H3",
+            "page": 824,
+            "text": "Use the Oil Paint filter"
+        },
+        {
+            "level": "H3",
+            "page": 826,
+            "text": "Apply specific filters"
+        },
+        {
+            "level": "H3",
+            "page": 829,
+            "text": "Smudge image areas"
+        },
+        {
+            "level": "H2",
+            "page": 830,
+            "text": "Chapter 18: Saving and exporting"
+        },
+        {
+            "level": "H3",
+            "page": 830,
+            "text": "Supported file formats"
+        },
+        {
+            "level": "H3",
+            "page": 832,
+            "text": "Save files in graphics formats"
+        },
+        {
+            "level": "H3",
+            "page": 837,
+            "text": "Save images"
+        },
+        {
+            "level": "H3",
+            "page": 839,
+            "text": "File formats"
+        },
+        {
+            "level": "H3",
+            "page": 846,
+            "text": "Save and export video and animations"
+        },
+        {
+            "level": "H3",
+            "page": 853,
+            "text": "Save PDF files"
+        },
+        {
+            "level": "H3",
+            "page": 861,
+            "text": "Digimarc copyright protection"
+        },
+        {
+            "level": "H3",
+            "page": 863,
+            "text": "Supported file formats"
+        },
+        {
+            "level": "H2",
+            "page": 865,
+            "text": "Chapter 19: Printing"
+        },
+        {
+            "level": "H3",
+            "page": 865,
+            "text": "Print 3D objects"
+        },
+        {
+            "level": "H3",
+            "page": 874,
+            "text": "Print from Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 876,
+            "text": "Print with color management"
+        },
+        {
+            "level": "H3",
+            "page": 879,
+            "text": "Contact Sheets and PDF Presentations"
+        },
+        {
+            "level": "H3",
+            "page": 880,
+            "text": "Print photos in a picture package layout"
+        },
+        {
+            "level": "H3",
+            "page": 883,
+            "text": "Print spot colors"
+        },
+        {
+            "level": "H3",
+            "page": 887,
+            "text": "Duotones"
+        },
+        {
+            "level": "H3",
+            "page": 889,
+            "text": "Print images to a commercial printing press"
+        },
+        {
+            "level": "H3",
+            "page": 895,
+            "text": "Improve color prints from Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 898,
+            "text": "Troubleshoot printing problems | Photoshop"
+        },
+        {
+            "level": "H2",
+            "page": 905,
+            "text": "Chapter 20: Automation"
+        },
+        {
+            "level": "H3",
+            "page": 905,
+            "text": "Creating actions"
+        },
+        {
+            "level": "H3",
+            "page": 905,
+            "text": "Video tutorial: Record actions"
+        },
+        {
+            "level": "H3",
+            "page": 909,
+            "text": "Create data-driven graphics"
+        },
+        {
+            "level": "H3",
+            "page": 915,
+            "text": "Scripting"
+        },
+        {
+            "level": "H3",
+            "page": 915,
+            "text": "Process a batch of files"
+        },
+        {
+            "level": "H3",
+            "page": 915,
+            "text": "Video | Using the Image Processor to batch process"
+        },
+        {
+            "level": "H3",
+            "page": 915,
+            "text": "multiple files"
+        },
+        {
+            "level": "H3",
+            "page": 920,
+            "text": "Play and manage actions"
+        },
+        {
+            "level": "H3",
+            "page": 924,
+            "text": "Add conditional actions"
+        },
+        {
+            "level": "H3",
+            "page": 924,
+            "text": "About actions and the Actions panel"
+        },
+        {
+            "level": "H3",
+            "page": 925,
+            "text": "Record tools in actions"
+        },
+        {
+            "level": "H3",
+            "page": 926,
+            "text": "From an expert: Tool recording"
+        },
+        {
+            "level": "H3",
+            "page": 926,
+            "text": "Add a conditional mode change to an action"
+        },
+        {
+            "level": "H3",
+            "page": 926,
+            "text": "Photoshop UI toolkit for plug-ins and scripts"
+        },
+        {
+            "level": "H2",
+            "page": 930,
+            "text": "Chapter 21: 3D and technical imaging"
+        },
+        {
+            "level": "H3",
+            "page": 930,
+            "text": "Creative Cloud 3D Animation (Preview)"
+        },
+        {
+            "level": "H3",
+            "page": 936,
+            "text": "D painting"
+        },
+        {
+            "level": "H3",
+            "page": 936,
+            "text": "Video | 3D painting - The next level"
+        },
+        {
+            "level": "H3",
+            "page": 941,
+            "text": "D panel enhancements | Photoshop"
+        },
+        {
+            "level": "H3",
+            "page": 943,
+            "text": "Essential 3D concepts and tools"
+        },
+        {
+            "level": "H3",
+            "page": 948,
+            "text": "D rendering and saving"
+        },
+        {
+            "level": "H3",
+            "page": 953,
+            "text": "Create 3D objects and animations"
+        },
+        {
+            "level": "H3",
+            "page": 955,
+            "text": "Image stacks"
+        },
+        {
+            "level": "H3",
+            "page": 957,
+            "text": "D workflow"
+        },
+        {
+            "level": "H3",
+            "page": 960,
+            "text": "Measurement"
+        },
+        {
+            "level": "H3",
+            "page": 966,
+            "text": "DICOM files"
+        },
+        {
+            "level": "H3",
+            "page": 970,
+            "text": "Photoshop and MATLAB"
+        },
+        {
+            "level": "H3",
+            "page": 972,
+            "text": "Count objects in an image"
+        },
+        {
+            "level": "H3",
+            "page": 974,
+            "text": "Combine and convert 3D objects"
+        },
+        {
+            "level": "H3",
+            "page": 976,
+            "text": "D texture editing"
+        },
+        {
+            "level": "H3",
+            "page": 979,
+            "text": "D panel settings"
+        },
+        {
+            "level": "H2",
+            "page": 991,
+            "text": "Chapter 22: Color Management"
+        },
+        {
+            "level": "H3",
+            "page": 991,
+            "text": "Understanding color management"
+        },
+        {
+            "level": "H3",
+            "page": 993,
+            "text": "Keeping colors consistent"
+        },
+        {
+            "level": "H3",
+            "page": 997,
+            "text": "Color settings"
+        },
+        {
+            "level": "H3",
+            "page": 1001,
+            "text": "Work with color profiles"
+        },
+        {
+            "level": "H3",
+            "page": 1005,
+            "text": "Color-managing documents for online viewing"
+        },
+        {
+            "level": "H3",
+            "page": 1006,
+            "text": "Color-managing documents when printing"
+        },
+        {
+            "level": "H3",
+            "page": 1011,
+            "text": "Color-managing imported images"
+        },
+        {
+            "level": "H3",
+            "page": 1013,
+            "text": "Proofing colors"
+        }
+    ],
+    "title": "Adobe Photoshop"
+}
